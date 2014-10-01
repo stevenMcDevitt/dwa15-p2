@@ -30,7 +30,7 @@
                         <div class="collapse navbar-collapse" id="navbar-collapse-100">
                             <ul class="nav navbar-nav">
                                 <li><a href="../p1/index.php">P1 - Portfolio</a></li>
-                                <li class=active><a href="p2.php">P2 - TBD</a></li>
+                                <li class=active><a href="p2.php">P2 - xkcd PwD</a></li>
                                 <li><a href="../p3/p3.php">P3 - TBD</a></li>
                                 <li><a href="../p4/p4.php">P4 - TBD</a></li>
                             </ul>
@@ -53,7 +53,7 @@
         <div class="container">
             <div class="row">
                 <div class="jumbotron col-md-12">
-                    <h1>Project 2  - Title TBD</h1>
+                    <h1>Project 2  - XKCD Password Generator</h1>
                 </div>
             </div>
 
@@ -63,8 +63,8 @@
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus placerat eros ac dapibus pellentesque. Etiam et vehicula dolor. Fusce lacinia ipsum ut arcu euismod, a commodo ipsum aliquam. Vestibulum eget mi sit amet sapien dictum finibus quis vel mauris. Proin eu sem feugiat, ornare ligula fermentum, molestie mauris. Fusce justo orci, placerat non rhoncus sed, molestie ut arcu. Cras mattis sagittis nunc, in maximus quam aliquam sit amet. Fusce id venenatis sem. Donec cursus elit varius tincidunt venenatis. Praesent vel lacus id orci dictum venenatis molestie eu lorem. Donec aliquam lectus sed turpis consectetur, at mattis augue vestibulum.</p>
                     <p class="bottom-sep"></p>
                     <h1>Links to Project</h1>
-                    <p><a href="http://www.google.com">Link to Project 2 Site</a></p>
-                    <p><a href="http://www.google.com">Link to Project 2 Github Repository</a></p>
+                    <p><a href="p2.php">Link to Project 2 Site</a></p>
+                    <p><a href="https://github.com/stevenMcDevitt/dwa15-p2.git">Link to Project 2 Github Repository</a></p>
                     <p class="bottom-sep"></p>
                 </div>
             <div class="col-lg-3 col-md-3 hidden-sm hidden-xs">
