@@ -11,6 +11,9 @@
         <link href="css/bootstrap.min.css" rel="stylesheet">
         <link href="css/main.css" rel="stylesheet">
         <script src="js/vendor/modernizr-2.6.2.min.js"></script>
+
+        <?php require('logic.php'); ?>
+
     </head>
 
     <body>
@@ -59,8 +62,34 @@
 
             <div class="row">
                 <div class="col-lg-9 col-md-9 col-sm-12 col-xs-12">
-                    <h1>Project Overview</h1>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus placerat eros ac dapibus pellentesque. Etiam et vehicula dolor. Fusce lacinia ipsum ut arcu euismod, a commodo ipsum aliquam. Vestibulum eget mi sit amet sapien dictum finibus quis vel mauris. Proin eu sem feugiat, ornare ligula fermentum, molestie mauris. Fusce justo orci, placerat non rhoncus sed, molestie ut arcu. Cras mattis sagittis nunc, in maximus quam aliquam sit amet. Fusce id venenatis sem. Donec cursus elit varius tincidunt venenatis. Praesent vel lacus id orci dictum venenatis molestie eu lorem. Donec aliquam lectus sed turpis consectetur, at mattis augue vestibulum.</p>
+                    <h1>Password Generator</h1>
+
+                    <form method='GET' action='p2.php'>
+                        <label>Number of Words:</label>
+                        <select name='wordCount'>
+                            <option value='1'>1<option>
+                            <option value='2'>2<option>
+                            <option value='3'>3<option>
+                            <option value='4'>4<option>
+                            <option value='5'>5<option>
+                            <option value='6'>6<option>
+                            <option value='7'>7<option>
+                            <option value='8'>8<option>
+                            <option value='9'>9<option>
+                        </select><br>
+                        <label>Append a Number?
+                            <input type='checkbox' name='includeNumbers' <?php echo ($includeNumbers) ? 'checked="checked"' : '' ; ?> /></label><br>
+                        <label>Append a Symbol?
+                            <input type='checkbox' name='includeSymbols' <?php echo ($includeSymbols) ? 'checked="checked"' : '' ; ?> /></label><br>
+
+                        <input type='submit' value='Generate Password'>
+                    </form>
+
+                    <?php print_r($_GET); ?><br>
+
+                    <p><?=$generatedPassword?></p><br>
+
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.  Fusce justo orci, placerat non rhoncus sed, molestie ut arcu. Cras mattis sagittis nunc, in maximus quam aliquam sit amet. Fusce id venenatis sem. Donec cursus elit varius tincidunt venenatis. Praesent vel lacus id orci dictum venenatis molestie eu lorem. Donec aliquam lectus sed turpis consectetur, at mattis augue vestibulum.</p>
                     <p class="bottom-sep"></p>
                     <h1>Links to Project</h1>
                     <p><a href="p2.php">Link to Project 2 Site</a></p>
