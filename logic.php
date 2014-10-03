@@ -26,7 +26,7 @@ if($passwordSymbols = file('PasswordSymbols.txt')) {
 	$appMsg = 'Symbols Load Failed ';
 }
 
-if($passwordNumbers = file('passwordNumbers.txt')) {
+if($passwordNumbers = file('PasswordNumbers.txt')) {
 	$appTrace = $appTrace.'Numbers Loaded ';
 	$totalNumbers = count($passwordNumbers);
 } else {
