@@ -27,14 +27,14 @@
                                 <span class="icon-bar"></span>
                                 <span class="icon-bar"></span>
                             </button>
-                            <a class="navbar-brand" href="../p1/index.php">DWA15</a>
+                            <a class="navbar-brand" href="http://p1.iitbotftbd.com">DWA15</a>
                         </div>
                         <div class="collapse navbar-collapse" id="navbar-collapse-100">
                             <ul class="nav navbar-nav">
-                                <li><a href="../p1/index.php">P1 - Portfolio</a></li>
-                                <li class=active><a href="index.php">P2 - xkcd PwD</a></li>
-                                <li><a href="../p3/index.php">P3 - TBD</a></li>
-                                <li><a href="../p4/index.php">P4 - TBD</a></li>
+                                <li><a href="http://p1.iitbotftbd.com">P1 - Portfolio</a></li>
+                                <li class=active><a href="http://p2.iitbotftbd.com">P2 - xkcd PwD</a></li>
+                                <li><a href="http://p1.iitbotftbd.com">P3 - TBD</a></li>
+                                <li><a href="http://p1.iitbotftbd.com">P4 - TBD</a></li>
                             </ul>
                             <form class="navbar-form navbar-right" role="search">
                                 <div class="input-group custom-search-form">
@@ -104,15 +104,8 @@
             <div class="col-lg-3 col-md-3 hidden-sm hidden-xs">
                     <div class="sidebar">
                         <h2>xkcd Passwords</h2>
-                        <p>Ipsum Lorem Guess I got what I deserve. Kept you waiting there, too long my love. 
-                           All that time, without a word. Didn't know you'd think, that I'd forget, or I'd regret.
-                           The special love I have for you. My baby blue.
-                           All the days became so long. Did you really think I'd do you wrong. Dixie, when I let you go. 
-                           Thought you'd realize, I would know, I would show. The special love I have for you. My baby blue
-                           What can I do, what can I say? Except that I want you by my side. How can I show you? Show me a way.
-                           Don't you know, the times I tried. Guess that's all I have to say. Except the feeling just grows stronger everyday.
-                           Just one thing, before I go. Take good care, baby let me know, let it grow. The special love you have for me. My Dixie dear
-                        </p>
+                        <p>The purpose of this project is to provide hands-on practice with working with the basics of PHP by creating and XKCD Password Generator.  This is a different approach for creating passwords.  Rather than using combinations of letters, numbers and symbols that are difficult to remember (which is why most people write down their password) the XKCD model is one that uses whole words in a sequence.  These are easier to remember and more difficult to crack.</p>
+                        <p>The user can select from 1 to 9 words and determine if the password should also contain a number and a symbol</p>
                     </div>
                     <div class="sidebar">
                         <h2>It Is The Business Of The Future To Be Dangerous</h2>
