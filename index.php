@@ -2,7 +2,6 @@
 <html class="no-js">
     <head>
         <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <title>DWA15 - Steven McDevitt</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -116,8 +115,7 @@
                         </p>
                     </div>
                     <div class="sidebar">
-                        <h2>Sidebar 2</h2>
-                        <p>Ipsum Lorem And I will strike down upon thee with great vengeance and furious anger those who would attempt to poison and destroy My brothers. And you will know My name is the Lord when I lay My vengeance upon thee.</p>
+                        <h2>It Is The Business Of The Future To Be Dangerous</h2>
                     </div>
                 </div>
             </div>
