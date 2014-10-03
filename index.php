@@ -33,9 +33,9 @@
                         <div class="collapse navbar-collapse" id="navbar-collapse-100">
                             <ul class="nav navbar-nav">
                                 <li><a href="../p1/index.php">P1 - Portfolio</a></li>
-                                <li class=active><a href="p2.php">P2 - xkcd PwD</a></li>
-                                <li><a href="../p3/p3.php">P3 - TBD</a></li>
-                                <li><a href="../p4/p4.php">P4 - TBD</a></li>
+                                <li class=active><a href="index.php">P2 - xkcd PwD</a></li>
+                                <li><a href="../p3/index.php">P3 - TBD</a></li>
+                                <li><a href="../p4/index.php">P4 - TBD</a></li>
                             </ul>
                             <form class="navbar-form navbar-right" role="search">
                                 <div class="input-group custom-search-form">
@@ -56,7 +56,7 @@
         <div class="container">
             <div class="row">
                 <div class="jumbotron col-md-12">
-                    <h1>Project 2  - XKCD Password Generator</h1>
+                    <h1>Project 2  - xkcd PwD</h1>
                 </div>
             </div>
 
@@ -64,13 +64,13 @@
                 <div class="col-lg-9 col-md-9 col-sm-12 col-xs-12">
                     <h1>Password Generator</h1>
 
-                    <form method='GET' action='p2.php'>
+                    <form method='GET' action='index.php'>
                         <label>Number of Words:</label>
                         <select name='wordCount'>
                             <option value='1'>1<option>
                             <option value='2'>2<option>
                             <option value='3'>3<option>
-                            <option value='4'>4<option>
+                            <option SELECTED value='4'>4<option>
                             <option value='5'>5<option>
                             <option value='6'>6<option>
                             <option value='7'>7<option>
@@ -85,20 +85,26 @@
                         <input type='submit' value='Generate Password'>
                     </form>
 
-                    <?php print_r($_GET); ?><br>
-
-                    <p><?=$generatedPassword?></p><br>
-
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.  Fusce justo orci, placerat non rhoncus sed, molestie ut arcu. Cras mattis sagittis nunc, in maximus quam aliquam sit amet. Fusce id venenatis sem. Donec cursus elit varius tincidunt venenatis. Praesent vel lacus id orci dictum venenatis molestie eu lorem. Donec aliquam lectus sed turpis consectetur, at mattis augue vestibulum.</p>
+                    <?php ($appTraceOn) ? print_r($_GET) : ''; ?>
+                    <?php ($appTraceOn) ? print $appMsg : ''; ?>        
+                    <?php ($appTraceOn) ? print $appTrace : ''; ?>
+                    <?php ($appTraceOn) ? print $totalWords : ''; ?>
+                    <?php ($appTraceOn) ? print $totalNumbers : ''; ?>
+                    <?php ($appTraceOn) ? print $totalSymbols : ''; ?>
+                    <?php ($appTraceOn) ? print_r($passwordComponents) : ''; ?>
+                    <br>
+                    <h2>Password: <?=$generatedPassword?></h2>
+                    <br>
+                    <br>
                     <p class="bottom-sep"></p>
                     <h1>Links to Project</h1>
-                    <p><a href="p2.php">Link to Project 2 Site</a></p>
+                    <p><a href="p2.iitbotftbd.com">Link to Project 2 Site</a></p>
                     <p><a href="https://github.com/stevenMcDevitt/dwa15-p2.git">Link to Project 2 Github Repository</a></p>
                     <p class="bottom-sep"></p>
                 </div>
             <div class="col-lg-3 col-md-3 hidden-sm hidden-xs">
                     <div class="sidebar">
-                        <h2>Sidebar 1</h2>
+                        <h2>xkcd Passwords</h2>
                         <p>Ipsum Lorem Guess I got what I deserve. Kept you waiting there, too long my love. 
                            All that time, without a word. Didn't know you'd think, that I'd forget, or I'd regret.
                            The special love I have for you. My baby blue.
