@@ -70,20 +70,20 @@ $generatedPassword = "";
 
 if($wordCount > 0) {
 	for($i = 0; $i < $wordCount; $i++) {
-		$rand = rand(0,$totalWords);
+		$rand = rand(0,($totalWords-1));
 		$selectedWord = trim($passwordWords[$rand]);
 		array_push($passwordComponents, $selectedWord);
 	}
 }
 
 if($includeNumbers) {
-	$rand = rand(0,$totalNumbers);
+	$rand = rand(0,($totalNumbers-1));
 		$selectedWord = trim($passwordNumbers[$rand]);
 		array_push($passwordComponents, $selectedWord);
 }
 
 if($includeSymbols) {
-	$rand = rand(0,$totalSymbols);
+	$rand = rand(0,($totalSymbols-1));
 		$selectedWord = trim($passwordSymbols[$rand]);
 		array_push($passwordComponents, $selectedWord);
 }
